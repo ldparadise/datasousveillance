@@ -3,7 +3,7 @@
 download_urls_from_CR.py - this downloads the URLs that you've amassed and saved as a text file. 
 Save it in the same folder as the text file. When you start this script, it will go to the list of urls, and save them as an htm file whose name is the text from the last slash of the URL forwards. so https://www.gpo.gov/fdsys/pkg/CREC-2002-07-31/html/CREC-2002-07-31-pt2-PgS7709-2.htm is saved as CREC-2002-07-31-pt2-PgS7709-2.htm
 
-Cr_parser_modified.py - Add this to the fdsys folder in the folder when you download from https://github.com/unitedstates/congressional-record
+Cr_parser_modified.py - Add this to the fdsys folder in the folder when you download them from https://github.com/unitedstates/congressional-record
 This file is identical to the one within the original script with two exceptions that let you point it at a file of varied congressional record files
 1) It deletes the mods file that is downloaded from the congressional record website
 2) It includes a sleep command to try and fend off the CR server kicking you off the shoulder. This command is at line 1043 and is seconds. 
